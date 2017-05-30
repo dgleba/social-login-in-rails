@@ -4,7 +4,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2.3'
+gem 'rails', '~> 4.2.8'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -33,6 +33,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder' # , '~> 1.2'
 
+gem 'rmagick' # ,  '~> 2.0.0'
+
+
 gem 'devise'
 gem 'bootstrap-sass-rails'
 gem 'carrierwave'
@@ -48,10 +51,10 @@ gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-linkedin-oauth2'
 gem 'omniauth-twitter'
-gem 'rmagick'
 gem 'simple_form'
-gem 'pg'
+#gem 'pg'
 gem 'thin'
+
 
 gem 'eventmachine' # , '>=1.07'
 
